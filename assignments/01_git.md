@@ -40,6 +40,17 @@ Your submission is complete when you complete the *Assigment1.md* file with your
 
 2. Try `git log --graph --all` to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.
 ```
+ git log --graph --all
+* commit 42d52158a1a14c8c211b89f0aefcd077267a573b (HEAD -> main, origin/master, origin/main, master)
+| Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
+| Date:   Wed Sep 7 21:10:30 2022 -0700
+|
+|     added the data
+|
+* commit 99c49f91c50e6f42203d95d36e5cd8610fee3fb9
+  Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
+  Date:   Wed Sep 7 14:36:46 2022 -0700
+
 
 
 ```
