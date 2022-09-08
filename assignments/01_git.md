@@ -34,7 +34,22 @@ Your submission is complete when you complete the *Assigment1.md* file with your
     - Use `git log --decorate` to explore the structure of commits.
 
 ```
+1.git branch 
+* main 
+2.git checkout master
+Switched to a new branch 'master'
+3.git log --decorate
+commit 42d52158a1a14c8c211b89f0aefcd077267a573b (HEAD -> main, origin/master, origin/main, master)
+Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
+Date:   Wed Sep 7 21:10:30 2022 -0700
 
+    added the data
+
+commit 99c49f91c50e6f42203d95d36e5cd8610fee3fb9
+Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
+Date:   Wed Sep 7 14:36:46 2022 -0700
+
+    file Created
 
 ```
 
