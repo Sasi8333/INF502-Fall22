@@ -55,13 +55,53 @@ Date:   Wed Sep 7 14:36:46 2022 -0700
 
 2. Try `git log --graph --all` to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.
 ```
+ git log --graph --all
+* commit 42d52158a1a14c8c211b89f0aefcd077267a573b (HEAD -> master, origin/master, origin/main, main)
+| Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
+| Date:   Wed Sep 7 21:10:30 2022 -0700
+|
+|     added the data
+|
+* commit 99c49f91c50e6f42203d95d36e5cd8610fee3fb9
+  Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
+  Date:   Wed Sep 7 14:36:46 2022 -0700
 
+      file Created
+
+
+
+git log --graph -all command display the all the commits history nad we can see tex based history of all the commits include author name and date as well as commit message.
+
+we can see graphical representation of the commits from the left side lines.
 
 ```
 
 3. Use `git diff BRANCH_NAME` to view the differences from a branch and the current branch. Summarize the difference from master to the other branch.
 
 ```
+git diff master
+diff --git a/Assignment1.md b/Assignment1.md
+index 2455c8b..cbfee24 100644
+--- a/Assignment1.md
++++ b/Assignment1.md
+@@ -34,8 +34,6 @@ Your submission is complete when you complete the *Assigment1.md* file with your
+     - Use `git log --decorate` to explore the structure of commits.
+
+ ```
+-1.$ git branch
+-* main
+
+
+ ```
+diff --git a/sample b/sample
+deleted file mode 100644
+index e69de29..0000000
+
+
+git diff command will disply the differences bitween two branches.
+
+for exmple we observe above  output it showing the difference btiween the main and master branch.
+
 
 
 ```
@@ -69,7 +109,10 @@ Date:   Wed Sep 7 14:36:46 2022 -0700
 4. Write a command sequence to merge the non-master branch into `master`.
 
 ```
+First we run git checkout master to change the active branch back to the master branch. Then we run the command git merge new-branch to merge the new feature/task into the master branch.
 
+
+git merge new-branch
 
 ```
 
