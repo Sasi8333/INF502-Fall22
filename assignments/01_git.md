@@ -6,7 +6,7 @@
 
 ## Description
 This assignment is composed of two parts. 
-- [Part 1](#Part-1-Dealing-with-git) consists of executing a sequence of commands and giving explanations about the commands you have to run. For each question, please provide appropriate explanation and/or the details requested.
+- [Part 1](#Part-1-Dealing-with-git) consists of executing a sequence of commands and giving explanations about the commands you have to run. For each question, please provide an appropriate explanation and/or the details requested.
 
 - [Part 2](#Part-2-Using-GitHub) consists of creating a Markdown file on a fork of this course and creating a pull request towards this repo.
 
@@ -29,9 +29,9 @@ Your submission is complete when you complete the *Assigment1.md* file with your
 
 1. List all the branches in this repository and, for each branch, list the commits.
 
-    - Use `git branch` to list the branches in this repository.
-    - Use `git checkout` to explore each branch.
-    - Use `git log --decorate` to explore the structure of commits.
+    - Use `git branch` to list the branches in this repository.
+    - Use `git checkout` to explore each branch.
+    - Use `git log --decorate` to explore the structure of commits.
 
 ```
 1.git branch 
@@ -41,36 +41,36 @@ Switched to a new branch 'master'
 3.git log --decorate
 commit 42d52158a1a14c8c211b89f0aefcd077267a573b (HEAD -> main, origin/master, origin/main, master)
 Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
-Date:   Wed Sep 7 21:10:30 2022 -0700
+Date:   Wed Sep 7 21:10:30 2022 -0700
 
-    added the data
+    added the data
 
 commit 99c49f91c50e6f42203d95d36e5cd8610fee3fb9
 Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
-Date:   Wed Sep 7 14:36:46 2022 -0700
+Date:   Wed Sep 7 14:36:46 2022 -0700
 
-    file Created
+    file Created
 
 ```
 
 2. Try `git log --graph --all` to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.
 ```
- git log --graph --all
+ git log --graph --all
 * commit 42d52158a1a14c8c211b89f0aefcd077267a573b (HEAD -> master, origin/master, origin/main, main)
 | Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
-| Date:   Wed Sep 7 21:10:30 2022 -0700
+| Date:   Wed Sep 7 21:10:30 2022 -0700
 |
-|     added the data
+|     added the data
 |
 * commit 99c49f91c50e6f42203d95d36e5cd8610fee3fb9
-  Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
-  Date:   Wed Sep 7 14:36:46 2022 -0700
+  Author: Sasi8333 <98135425+Sasi8333@users.noreply.github.com>
+  Date:   Wed Sep 7 14:36:46 2022 -0700
 
-      file Created
+      file Created
 
 
 
-git log --graph -all command display the all the commits history nad we can see tex based history of all the commits include author name and date as well as commit message.
+git log --graph -all command displays all the commits history and we can see text based history of all the commits including author name and date as well as commit message.
 
 we can see graphical representation of the commits from the left side lines.
 
@@ -85,22 +85,22 @@ index 2455c8b..cbfee24 100644
 --- a/Assignment1.md
 +++ b/Assignment1.md
 @@ -34,8 +34,6 @@ Your submission is complete when you complete the *Assigment1.md* file with your
-     - Use `git log --decorate` to explore the structure of commits.
+     - Use `git log --decorate` to explore the structure of commits.
 
- ```
+ ```
 -1.$ git branch
 -* main
 
 
- ```
+ ```
 diff --git a/sample b/sample
 deleted file mode 100644
 index e69de29..0000000
 
 
-git diff command will disply the differences bitween two branches.
+git diff command will display the differences between two branches.
 
-for exmple we observe above  output it showing the difference btiween the main and master branch.
+For example, we observe the above  output showing the difference between the main and master branch.
 
 
 
@@ -123,20 +123,20 @@ git checkout master
 $ git branch
 
 * main
-  master
+  master
 
 
 $ git pull
 Already up to date.
 
 
- git checkout master
+ git checkout master
 Switched to branch 'master'
 Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-  
-  
-   git merge main
+  (use "git push" to publish your local commits)
+  
+  
+   git merge main
 Already up to date.
 
 ```
@@ -149,14 +149,14 @@ Already up to date.
 2.git checkout -b math
 Switched to a new branch 'math'
 3.git branch
-  main
-  master
+  main
+  master
 * math
 
 
 
 ```
-   
+   
 6. Edit B.py adding the following source code below the content you have there.
 ```
 print 'I know math, look:'
@@ -177,8 +177,8 @@ warning: in the working copy of 'B.py', LF will be replaced by CRLF the next tim
 sy434@CMP5060 MINGW64 ~/INF502 (math)
 $ git commit -m "added b.py file"
 [master 26dd18f] added b.py file
- 1 file changed, 2 insertions(+)
- create mode 100644 B.py
+ 1 file changed, 2 insertions(+)
+ create mode 100644 B.py
 
 sy434@CMP5060 MINGW64 ~/INF502 (math)
 $ git push
@@ -190,7 +190,7 @@ Writing objects: 100% (7/7), 685 bytes | 685.00 KiB/s, done.
 Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Sasi8333/INF502.git
-   42d5215..26dd18f  math -> math
+   42d5215..26dd18f  math -> math
 
 ```
 
@@ -201,12 +201,12 @@ print 'hello world!'
 
 sy434@CMP5060 MINGW64 ~/INF502 (master)
 $ 
- git add ,
+ git add ,
 
 sy434@CMP5060 MINGW64 ~/INF502 (master)
 $ git commit -m "added hello world"
 [master 8ff5163] added hello world
- 1 file changed, 1 insertion(+)
+ 1 file changed, 1 insertion(+)
 
 sy434@CMP5060 MINGW64 ~/INF502 (master)
 $ git push
@@ -217,7 +217,7 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 371 bytes | 371.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Sasi8333/INF502.git
-   59a6d83..8ff5163  master -> master
+   59a6d83..8ff5163  master -> master
 
 cat B.py
 print 'hello world!'
@@ -226,12 +226,12 @@ print 2+2
 
 
 
-    
+    
 ```
 
 9. Write a command sequence to merge the `math` branch into `master` and describe what happened.
 ```
-First checkout to matser branch 
+First checkout to master branch 
 
 1.git checkout master
 2.git pull 
@@ -251,7 +251,7 @@ print 'hello world!'
 print 'I know math, look:'
 print 2+2
 >>>>>>> math
- In this case we need check with developer we need to fix the conficlts issues right now i am accepting the both changes because this a example 
+ In this case we need check with developer we need to fix the conflicts issues right now i am accepting the both changes because this a example 
 After accepting the both the changes file should like below 
 
 print 'hello world!'
@@ -260,9 +260,9 @@ print 'I know math, look:'
 print 2+2
 
 git add .
-PS C:\Users\sy434\INF502> git commit -m "added the chnages"
-[master 3687bf3] added the chnages
- 1 file changed, 3 deletions(-)
+PS C:\Users\sy434\INF502> git commit -m "added the changes"
+[master 3687bf3] added the changes
+ 1 file changed, 3 deletions(-)
 PS C:\Users\sy434\INF502> git push 
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
@@ -271,18 +271,18 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 375 bytes | 375.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Sasi8333/INF502.git
-   81af1ad..3687bf3  master -> master
+   81af1ad..3687bf3  master -> master
 
 
 
 ```
-   
+   
 10. Write a set of commands to abort the merge.
 ```
-git  merge --abort
+git  merge --abort
 
 ```
-   
+   
 11. Now repeat item 9, but proceed with the manual merge (editing B.py). All implemented methods are needed. Explain your procedure.
 ```
 <<<<<<< HEAD
