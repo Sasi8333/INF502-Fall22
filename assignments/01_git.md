@@ -309,7 +309,16 @@ We can also use git rebase <branch>  but it will re-wright the barnch basee bran
 13. Complete Part 2. Then, come back here and answer the following:
 Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the hurdles you faced (within the file you created for the **Part 1**).
 ```
+1.Created the frok the repo and clone into my local laptop.
+2.I was used git clone command to clone the repo into my local laptop.
+3.created file under the students folder with the name of YEMINENI_SASIPREETHAM.md
+4.Added below content in the file and committed the changes.
 
+-Title
+-Venue(journal name/conference)
+-Number of pages 
+-Three outcomes of the paper
+-Link to the paper online
 
 ```
 
