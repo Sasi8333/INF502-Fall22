@@ -299,9 +299,10 @@ Open the B.py file add remove the unnecessary lines and commit the changes.
 
 12. Write a command (or set of commands) to proceed with the merge and make `master` branch up-to-date.
 ```
-
+To merge the Changes from one branch to other branch 
 git merge math 
 
+We can also use git rebase <branch>  but it will re-wright the barnch basee branch history
 
 ```
 
